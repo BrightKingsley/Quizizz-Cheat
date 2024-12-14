@@ -1,7 +1,7 @@
 {
-  "build": {
-    "env": {
-      "VERCEL_PHP_VERSION": "7.2"
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.5.2"
     }
   }
 }
